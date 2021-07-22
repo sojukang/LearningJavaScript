@@ -50,3 +50,20 @@ orderSetMenu('터키베이컨 아보카도', '코카콜라');
 orderSetMenu('코드웨잇 멜트');
 orderSetMenu('이탈리안 비엠티', '닥터페퍼');
 orderSetMenu('에그마요', '환타 오렌지');
+
+// tagNotification funtion for reviewing function and parameters
+let adultTag = '삑!';
+let teenagerTag = '삑삑!';
+let transferTag = '환승입니다.';
+let errorTag = '삑삑삑!';
+
+function tagNotification(tagCase) {
+    console.log(tagCase);
+};
+
+// 테스트 코드
+tagNotification(adultTag);
+tagNotification(teenagerTag);
+tagNotification(transferTag);
+tagNotification(errorTag);
+tagNotification(adultTag);
