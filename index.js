@@ -42,8 +42,8 @@ printSquare(5);
 console.log(' ')
 
 // Use Multiple parameters
-function printSum(a, b) {
-    console.log(a + b);
+function printSum(num1, num2) {
+    console.log(num1 + num2);
 };
 
 console.log('printSum function test')
