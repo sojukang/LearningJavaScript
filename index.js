@@ -40,3 +40,13 @@ console.log(' ')
 printSquare(2);
 printSquare(5);
 console.log(' ')
+
+// Use Multiple parameters
+function printSum(a, b) {
+    console.log(a + b);
+};
+
+console.log('printSum function test')
+printSum(10, 5);
+console.log(' ')
+
