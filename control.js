@@ -177,3 +177,27 @@ function mutiplicationTable(num) {
 
 //test code
 mutiplicationTable(9);
+
+// Fibonacci function for learning control statement
+function Fibonacci(num) {
+    let previous = 0;
+    let current = 1;
+    let temp = 0;
+    let cnt = 1;
+
+    while (cnt <= num) 
+    {
+        console.log(current);
+
+        temp = previous;
+        previous = current;
+        current = temp + current;
+
+        cnt++;
+
+    }
+
+    
+}
+
+Fibonacci(50);
