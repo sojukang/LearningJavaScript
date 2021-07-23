@@ -118,3 +118,47 @@ checkPrice('VIP');
 checkPrice('S');
 checkPrice('A');
 checkPrice('B');
+
+
+//printTriangle function for learning for statement
+function printTriangle(height) {
+    for (i = 1; i <= height; i++) {
+        console.log('*'.repeat(i));
+    };
+
+    // let message = '';
+    // for (let i = 0; i < height; i++) {
+    //     message += '*';
+    //     console.log(message);
+    // }
+};
+
+
+// 테스트 코드
+console.log('높이: 1');
+printTriangle(1);
+
+console.log('높이: 3');
+printTriangle(3);
+
+console.log('높이: 5');
+printTriangle(5);
+
+// printDivisor function for learning while statement
+const N = 180;
+
+function printDivisor(num) {
+    i = 1;
+    cnt = 0;
+    while (i <= num) {
+        if (num % i === 0) {
+            console.log(i);
+            cnt++;
+        };
+        i++;
+    };
+    console.log(`${N}의 약수는 총 ${cnt}개입니다.`)
+};
+
+// test code 
+printDivisor(N);
