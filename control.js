@@ -162,3 +162,18 @@ function printDivisor(num) {
 
 // test code 
 printDivisor(N);
+
+// mutiplicationTable function for learning nested loop statement
+function mutiplicationTable(num) {
+    if (num < 1 || num > 9) {
+        console.log('1부터 9까지의 수를 입력해주세요')
+    }
+    for (i = 1; i <= num; i++) {
+        for(j = 1; j <= 9; j++) {
+            console.log(`${i} * ${j} = ${i * j}`);
+        };
+    };
+};
+
+//test code
+mutiplicationTable(9);
