@@ -59,3 +59,23 @@ function calculateChange(payment, cost) {
 calculateChange(100000, 33000);
 console.log('');
 calculateChange(500000, 378000);
+
+// Add isPalindrome function for learning dealing with string
+function isPalindrome(word) {
+    // 여기에 코드를 입력해 주세요.
+    wordLen = word.length
+    for (i = 0; i < Math.floor(wordLen / 2); i++) {
+        if (word[i] !== word[wordLen - i - 1]) {
+            return false;
+        }
+    }
+    return true;
+}
+
+// 테스트 코드
+console.log(isPalindrome("racecar"));
+console.log(isPalindrome("stars"));
+console.log(isPalindrome("기러기"));
+console.log(isPalindrome("123321"));
+console.log(isPalindrome("hello"));
+console.log(isPalindrome("kayak"));
